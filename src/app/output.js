@@ -7,3 +7,4 @@ var TesteNamespace;
         return Teste;
     }());
 })(TesteNamespace || (TesteNamespace = {}));
+angular.module('', []);
