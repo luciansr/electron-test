@@ -2,10 +2,12 @@
   "name": "electron-test",
   "version": "0.0.1",
   "description": "testing electron",
-  "main": "/src/main.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"no tests\"",
-    "start": "electron src/main.js"  
+    "start": "npm install && electron main.js",
+    "gulp": "gulp typescript",
+    "develop": "npm install && gulp develop"
   },
   "repository": {
     "type": "git",
@@ -28,6 +30,8 @@
     "electron-prebuilt": "^1.2.1",
     "gulp": "^3.9.1",
     "gulp-typescript": "^2.13.6",
-    "gulp-watch": "^4.3.6"
+    "gulp-watch": "^4.3.6",
+    "remote": "^0.2.6",
+    "run-sequence": "^1.2.1"
   }
 }
