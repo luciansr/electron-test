@@ -1,4 +1,6 @@
 
+/// <reference path="../../typings/index.d.ts"/>
+
 namespace TesteNamespace {
 
   class Teste {

@@ -33,5 +33,9 @@
     "gulp-watch": "^4.3.6",
     "remote": "^0.2.6",
     "run-sequence": "^1.2.1"
+  },
+  "dependencies": {
+    "mysql": "^2.10.2",
+    "sequelize": "^3.23.3"
   }
 }
