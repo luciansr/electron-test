@@ -4,10 +4,11 @@ Test app made for studying Electron and NodeJs features
 
 ## How to run?
 
-1. Install NodeJS
-2. Install Git on your machine
-3. git clone <this_repo_url>
-4. open electron-test folder and run "npm run develop"
+1. Install NodeJS (and npm)
+2. Include npm folder on your Path Environment Variable
+3. Install Git on your machine
+4. git clone https://github.com/luciansr/electron-test.git
+5. open electron-test folder and run "npm run develop"
 
 
 #### How to include new typings?
@@ -16,7 +17,7 @@ Use typings:
 
 1. typings search [package name]
 2. typings install [package provider]~[package name] --save
-3. include /// <reference path="../../typings/index.d.ts"/> in yout TypeScript file
+3. include `/// <reference path="../../typings/index.d.ts"/>` in your TypeScript file
 
 #### To Remenber
 
