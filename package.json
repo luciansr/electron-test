@@ -2,9 +2,10 @@
   "name": "electron-test",
   "version": "0.0.1",
   "description": "testing electron",
-  "main": "index.js",
+  "main": "/src/main.js",
   "scripts": {
-    "test": "echo \"no tests\""
+    "test": "echo \"no tests\"",
+    "start": "electron src/main.js"  
   },
   "repository": {
     "type": "git",
