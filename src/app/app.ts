@@ -1,16 +1,6 @@
 
 /// <reference path="../../typings/index.d.ts"/>
+(() => {
+  angular.module(App.Config.APP_NAME, []);
 
-namespace TesteNamespace {
-
-  class Teste {
-    public Bla: string;
-
-    constructor() {
-      this.Bla = "s";
-    }
-
-  }
-}
-
-angular.module('teste', []);
+}) ();

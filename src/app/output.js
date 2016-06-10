@@ -1,10 +1,13 @@
-var TesteNamespace;
-(function (TesteNamespace) {
-    var Teste = (function () {
-        function Teste() {
-            this.Bla = "s";
-        }
-        return Teste;
-    }());
-})(TesteNamespace || (TesteNamespace = {}));
-angular.module('', []);
+(function () {
+})();
+var App;
+(function (App) {
+    var Config;
+    (function (Config) {
+        Config.APP_NAME = 'app';
+    })(Config = App.Config || (App.Config = {}));
+})(App || (App = {}));
+/// <reference path="../../typings/index.d.ts"/>
+(function () {
+    angular.module(App.Config.APP_NAME, []);
+})();
