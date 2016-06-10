@@ -1,0 +1,27 @@
+{
+  "name": "electron-test",
+  "description": "testing electron",
+  "main": "main.js",
+  "authors": [
+    "Lucian Sturião"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "electron",
+    "angular",
+    "typescript",
+    "gulp"
+  ],
+  "homepage": "https://github.com/luciansr/electron-test",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6"
+  }
+}
