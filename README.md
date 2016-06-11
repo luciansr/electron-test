@@ -1,17 +1,16 @@
 # electron-test
 
-Test app made for studying Electron and NodeJs features  
+Test app made for studying Electron and NodeJs features
 
 ## How to run?
 
 1. Install NodeJS (and npm)
 2. Include npm folder on your Path Environment Variable
 3. Install Git on your machine
-4. git clone https://github.com/luciansr/electron-test.git
+4. git clone <https://github.com/luciansr/electron-test.git>
 5. open electron-test folder and run "npm run develop"
 
-
-#### How to include new typings?
+### How to include new typings?
 
 Use typings:
 
@@ -19,14 +18,16 @@ Use typings:
 2. typings install [package provider]~[package name] --save
 3. include `/// <reference path="../../typings/index.d.ts"/>` in your TypeScript file
 
-#### To Remenber
+### To Remenber
 
-1. Sequelize ORM for Node JS: http://docs.sequelizejs.com/en/latest/docs/getting-started/
+1. Sequelize ORM for Node JS: <http://docs.sequelizejs.com/en/latest/docs/getting-started/>
 
+### Packages installed on Atom
 
-#### Packages installed on Atom
+apm install [package name]
 
-apm install [package name]  
 1. atom-typescript (typescript language recognition)
 2. markdown-preview (ctrl + shift + m)
 3. terminal-panel (run a integrated terminal inside atom [ctrl + '])
+4. atom-beautify
+5. git-control
