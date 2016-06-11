@@ -29,5 +29,6 @@ apm install [package name]
 1. atom-typescript (typescript language recognition)
 2. markdown-preview (ctrl + shift + m)
 3. terminal-panel (run a integrated terminal inside atom [ctrl + '])
-4. atom-beautify
-5. git-control
+4. atom-beautify [ctrl alt b]
+5. git-control [ctrl alt O]
+6. block-comment-lines [alt shift b]
