@@ -1,5 +1,5 @@
 namespace App.Config {
 
-  export var APP_NAME = 'app';
+    export var APP_NAME = 'app';
 
 }

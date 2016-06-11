@@ -5,7 +5,7 @@ var electron = require('electron-connect').server.create();
 
 var typeScriptFiles = 'src/app/**/*.ts';
 
-gulp.task('typescript', function () {
+gulp.task('typescript', function() {
     return gulp.src(typeScriptFiles)
         .pipe(ts({
             noImplicitAny: true,
@@ -14,17 +14,17 @@ gulp.task('typescript', function () {
         .pipe(gulp.dest(''));
 });
 
-gulp.task('electron-reload', function () {
+gulp.task('electron-reload', function() {
     electron.reload();
 });
 
-gulp.task('develop', function () {
+gulp.task('develop', function() {
     // Start browser process
     electron.start();
     // Restart browser process
     gulp.watch('main.js', electron.restart);
     // Reload renderer process
-    gulp.watch(['src/**/*'], function () {
+    gulp.watch(['src/**/*'], function() {
         runSequence('typescript', 'electron-reload');
     });
 })
