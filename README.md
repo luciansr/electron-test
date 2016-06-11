@@ -18,7 +18,7 @@ Use typings:
 2. typings install [package provider]~[package name] --save
 3. include `/// <reference path="../../typings/index.d.ts"/>` in your TypeScript file
 
-### To Remenber
+### To Remember
 
 1. Sequelize ORM for Node JS: <http://docs.sequelizejs.com/en/latest/docs/getting-started/>
 
