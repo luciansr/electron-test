@@ -6,12 +6,12 @@ var electron = require('electron-connect').server.create();
 var typeScriptFiles = 'src/app/**/*.ts';
 
 gulp.task('typescript', function() {
-    return gulp.src(typeScriptFiles)
+    /*return gulp.src(typeScriptFiles)
         .pipe(ts({
             noImplicitAny: true,
             out: 'src/app/output.js'
         }))
-        .pipe(gulp.dest(''));
+        .pipe(gulp.dest(''));*/
 });
 
 gulp.task('electron-reload', function() {
